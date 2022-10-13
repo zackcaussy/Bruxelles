@@ -31,7 +31,7 @@
 
 
         </div>
-        <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Logo/pngegg(2).png"
+        <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Logo/menu-burger-blanc.png" alt="menu-burger" class="menu-burger">
     </nav>
 
     <header></header>
@@ -40,5 +40,12 @@
 
 
 </body>
+<script>
+    const menuHamburger = document.querySelector(".menu-burger")
+    const navLinks = document.querySelector(".nav-links")
 
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
 </html>
