@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+
+    font-family: 'Ubuntu', 'Montserra', 'Roboto', sans-serif;
+
+}
+
+header{
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Zack7.jpeg);
+    background-size: cover;
+
+}
+
+.navbar{
+
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.navbar a{
+
+    color: white;
+}
+
+.navbar .logo{  
+
+    font-size: 2em;
+    font-weight: bold;
+    color: yellow;
+}
+
+
+.navbar .nav-links ul{
+
+    display: flex;
+    font-size: large;
+    font-weight: lighter;
+
+}
+
+.navbar .nav-links ul li{
+    
+    margin: 0 25px;
+    
+}
+
+.navbar .nav-links ul li.first a{
+    
+    color: ;
+        
+}
+
+.navbar .nav-links ul li.second a{
+    
+    color: ;
+        
+}
+
+.navbar .nav-links ul li.third a{
+    
+    color: ;
+        
+}
+
+.navbar .nav-links ul li.forth a{
+    
+    color: ;
+        
+}
+
+
+.navbar .nav-links ul li.fifth a{
+    
+    color: ;
+        
+}
+
+@media screen and (max-width: 850px) {
+    .nav-links{
+        display: none;
+    }
+}
+
