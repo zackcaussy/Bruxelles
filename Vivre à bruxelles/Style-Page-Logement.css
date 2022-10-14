@@ -1,9 +1,8 @@
+
+/* CODE IFRAME NE PAS TOUCHER*/
 iframe {
     width: 100%;
     max-width: 100%;
-}
-* {
-    box-sizing: border-box;
 }
 iframe[Attributes Style] {
     border-top-width: 0px;
@@ -12,10 +11,18 @@ iframe[Attributes Style] {
     border-left-width: 0px;
     height: 450px;
 }
-
 iframe {
     border-style: inset;
     border-color: initial;
     border-image: initial;
 }
+/* CODE IFRAME NE PAS TOUCHER*/
 
+/*CODE POUR REMONTER EN HAUT NE PAS TOUCHER*/
+#scrollUp
+{
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.5;
+}
