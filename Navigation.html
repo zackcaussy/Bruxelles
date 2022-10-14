@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Navigation</title>
 </head>
+
 <body>
-    test
+
+    <nav class="navbar">
+        <a href=# class="logo">Bruxelles</a>
+        <div class="nav-links">
+            <ul>
+                <li class="first"><a href="">Actualités & Sorties</a></li>
+                <li class="second"><a href="">Services & Demarches</a></li>
+                <li class="third"><a href="">Vivre à Bruxelles</a></li>
+                <li class="forth"><a href="">Action Municipale</a></li>
+                <li class="fifth"><a href="">Infos & Contact</a></li>
+
+            </ul>
+
+
+
+        </div>
+        <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Logo/menu-burger-full-white.png" alt="menu-burger" class="menu-burger">
+    </nav>
+
+    <header></header>
+
+
+
+
 </body>
+<script>
+    const menuHamburger = document.querySelector(".menu-burger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
 </html>
