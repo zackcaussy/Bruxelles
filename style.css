@@ -20,6 +20,27 @@ header{
 
 }
 
+header li {
+display: inline-block;
+padding: 20px;
+
+}
+
+
+header li a {
+    display: block;
+    padding: 20px;
+}
+
+header li a :hover{
+    background-color: aqua;
+}
+
+.sub-menu{
+    display:none;
+}
+
+
 .navbar{
     
     position: absolute;
