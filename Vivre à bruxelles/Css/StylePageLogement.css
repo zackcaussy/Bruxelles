@@ -2,7 +2,6 @@
 /* CODE IFRAME NE PAS TOUCHER*/
 iframe {
     width: 100%;
-    max-width: 100%;
 }
 iframe[Attributes Style] {
     border-top-width: 0px;
@@ -28,3 +27,10 @@ right: -100px;
 opacity: 0.5;
 }
 /*CODE POUR REMONTER EN HAUT NE PAS TOUCHER*/
+
+/*Code Tableau NE PAS TOUCHER*/
+
+.tableau1 {
+    border: 1px dotted black;
+    padding: 5%;
+    }
