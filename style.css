@@ -8,22 +8,43 @@
 body{
 
     font-family: 'Ubuntu', 'Montserra', 'Roboto', sans-serif;
-
+    height: 100vh;
+    width: 100%;
 }
 
 header{
-
-    height: 100vh;
-    width: 100vw;
-    background-image: url(https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Zack7.jpeg);
-    background-size: cover;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: black;
 
 }
 
-.navbar{
+header li {
+display: inline-block;
+padding: 20px;
 
+}
+
+
+header li a {
+    display: block;
+    padding: 20px;
+}
+
+header li a :hover{
+    background-color: aqua;
+}
+
+.sub-menu{
+    display:none;
+}
+
+
+.navbar{
+    
     position: absolute;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,59 +63,80 @@ header{
     font-size: 2em;
     font-weight: bold;
     color: yellow;
+    padding-right: 25px;
+    
 }
 
+.box {
+
+	width: 200px;
+	height: 15px;
+	background-color: white;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+
+}
+
+.box > i {
+
+	font-size: 13px;
+	color: #777;
+
+}
+
+.box > input{
+
+	
+	height: 20px;
+	border: none;
+	outline: none;
+	font-size: 13px;
+	
+
+}
 
 .navbar .nav-links ul{
 
     display: flex;
-    font-size: large;
+    font-size: medium;
     font-weight: lighter;
+    padding: 0px;
 
 }
 
 .navbar .nav-links ul li{
-    
     margin: 0 25px;
-    
+    color:white;  
 }
 
-.navbar .nav-links ul li.first a{
-    
-    color: ;
-        
+.navbar .nav-links ul li.first a:hover{
+    color: rgb(0, 140, 255);    
 }
 
-.navbar .nav-links ul li.second a{
-    
-    color: ;
-        
+.navbar .nav-links ul li.second a:hover{
+    color: rgb(165, 95, 231);  
 }
 
-.navbar .nav-links ul li.third a{
-    
-    color: ;
-        
+.navbar .nav-links ul li.third a:hover{
+    color: red;  
 }
 
-.navbar .nav-links ul li.forth a{
-    
-    color: ;
-        
+.navbar .nav-links ul li.forth a:hover{
+    color: orange;      
 }
 
 
-.navbar .nav-links ul li.fifth a{
-    
-    color: ;
-        
+.navbar .nav-links ul li.fifth a:hover{
+    color: green;    
 }
 
 .navbar .menu-burger{
     display: none;
     position: absolute;
-    top: 50px;
-    right: 30px;
+    top: 25px;
+    right: 25px;
     width: 35px;
 }
 
@@ -104,6 +146,33 @@ header{
     margin-left: 0;
 }
 
+p{
+padding-left: 5px;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    text-align: center;
+    padding-left: 5px;
+    font-size: 2em;
+  }
+
+.icons{
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;  
+}
 
 @media screen and (max-width: 850px) {
     
@@ -114,7 +183,7 @@ header{
 .navbar .logo{  
 
     position: absolute;
-    top: 50px;
+    top: 20px;
     left: 30px;
     color: yellow;
 }
@@ -161,10 +230,49 @@ header{
         
     }
 
+    .box{
+        position: relative;
+        top: 25px;
+        left: 300px;
+        width: 200px;
+        height: 15px;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
 
+    
+    }
+    
+    .box > i {
+    
+        font-size: 13px;
+        color: #777;
+    
+    }
+    
+    .box > input{
+    
+        flex: 1;
+        height: 20px;
+        border: none;
+        outline: none;
+        font-size: 13px;
+        padding-left: 10px;
+    
+    }
 
 
 }
 
+@media screen and (max-width: 580px) {
 
 
+    .box{
+        display: none;
+
+    
+    }
+}
