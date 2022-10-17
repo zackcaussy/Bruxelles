@@ -1,19 +1,47 @@
+/* CODE IFRAME NE PAS TOUCHER*/
 iframe {
     width: 50%;
 }
-
-iframe[Attributes Style] {
+iframe[Attributes-Style] {
     border-top-width: 0px;
     border-right-width: 0px;
     border-bottom-width: 0px;
     border-left-width: 0px;
-    height: 800px;
-    width: 100%;
+    height: 450px;
 }
-user agent stylesheet
 iframe {
-    border-width: 2px;
     border-style: inset;
     border-color: initial;
     border-image: initial;
+} 
+/* CODE IFRAME NE PAS TOUCHER */
+
+/*CODE POUR REMONTER EN HAUT NE PAS TOUCHER*/
+#scrollUp
+{
+position: absolute;
+position: fixed;
+bottom : 10px;
+right: 0px;
+opacity: 0.5;
+}
+/*CODE POUR REMONTER EN HAUT NE PAS TOUCHER*/
+
+/*CODE TABLEAUX NE PAS TOUCHER*/
+
+table {
+    border-collapse: collapse;
+}
+
+th, td 
+{
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+/*CODE TABLEAUX NE PAS TOUCHER*/
+
+p
+{
+    text-align: justify;
 }
