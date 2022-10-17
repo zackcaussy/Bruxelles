@@ -1,22 +1,22 @@
 
 
 .card {
-    /* Add shadows to create the "card" effect */
+    /* ajoute une ombre à "card" effet */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-        width : 500px;
+        width : 450px;
         height : 600px;
         text-align: center;
         
         }
   
   
-  /* On mouse-over, add a deeper shadow */
+  /* Quand Souris passse il ajoute l effet d'ombre */
   .card:hover {
     box-shadow: 0 30px 45px 0 rgba(0,0,0,0.2);
   }
   
-  /* Add some padding inside the card container */
+  /* Ajoute un padding au INTERNE */
   .interne {
     padding: 2px 44px;
 
@@ -44,12 +44,13 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: right;
 
   }
-
+/* AJOUTE LE FLEX AU CONTAINER  */
   .container {
 
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     
   }
 
