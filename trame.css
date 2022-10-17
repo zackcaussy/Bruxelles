@@ -53,6 +53,10 @@ header{
     
 }
 
+.navbar .nav-links ul li a:hover{
+    color: red;
+}
+
 .navbar .menu-burger{
     display: none;
 
