@@ -38,8 +38,16 @@ h2 {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
+/* Modifie la mise en page du SOUS TITRE */
+h4 {
+
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 5%;
+  margin-bottom: 5%;
 /* Modifie la mise en page du PARAGRAPHE */
-p {
+.p {
 
   text-align: center;
   margin-top: 3%;
