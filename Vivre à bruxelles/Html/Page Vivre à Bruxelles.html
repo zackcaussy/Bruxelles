@@ -7,69 +7,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Vivre à Bruxelles - Bruxelles </title>
     <link rel="stylesheet" href="../Css/StylePageVivreàBruxelles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Bruxelles</a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Action Municipale</a></li>
+                    <li><a href="#">Vivre à Bruxelles</a></li>
+                    <li><a href="#">Services et Démarches</a></li>
+                    <li><a href="#">Actualités et Sorties</a></li>
+                    <li><a href="#">Infos et Contacts</a></li>
+                </ul>
+            </div>
+            <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Logo/menu-burger-full-white.png"
+                alt="menu-burger" class="menu-burger">
+        </nav>
+    
+    </header>
 
+    <div class="corps">
     <h1>Vivres à bruxelles</h1>
 
     <div class="container">
         <div class="card">
-            <h2>Logement</h2>
+            <form>
+                <a href="Page-Logement.html">
+                    <h2>Logement</h2>
 
-            <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Padoue1.jpg"
-                alt="Avatar" style="width:100%">
-            <div class="interne">
+                    <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Padoue1.jpg"
+                        alt="Avatar" style="width:100%">
+                    <div class="interne">
 
-                <p>Toute les aide pour trouver un logement ou tout autres choses à louer auprès de la Régie Foncière</p>
+                        <p>Toute les aide pour trouver un logement ou tout autres choses à louer auprès de la Régie
+                            Foncière</p>
 
-                <form>
-                    <a href="Page-Logement.html"> 
-                        <input type="button" value="lire l'article">
-                    </a>
-                </form>
-            </div>
+                </a>
+            </form>
         </div>
+    </div>
 
-        <div class="card">
-            <h2>Marchés</h2>
-            <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Padoue2.jpg" alt="Avatar"
-                style="width:100%">
+    <div class="card">
+        <form>
+            <a href="Page-Marches.html">
+                <h2>Marchés</h2>
+                <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Padoue2.jpg" alt="Avatar"
+                    style="width:100%">
 
-            <div class="interne">
+                <div class="interne">
 
-                <p> Toute les information relative au marchés (Dates, horaires, etc...)</p>
-                <form>
-                    <a href="Page-Marches.html">
-                        <input type="button" value="lire l'article">
-                    </a>
-                </form>
-            </div>
-
-        </div>
-
-        <div class="card">
-            <h2>Sécurité - Préventions</h2>
-            <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Padoue4.jpg" alt="Avatar"
-                style="width:100%">
-
-            <div class="interne">
-
-                <p> Toute les information relatives à la sécurités et la préventions dans la villes de Bruxelles
-                </p>
-
-                <form>
-                    <a href="Page-Sécurité-Prévention.html">
-                        <input type="button" value="lire l'article">
-                    </a>
-                </form>
-            </div>
-
-        </div>
+                    <p> Toute les information relative au marchés (Dates, horaires, etc...)</p>
+            </a>
+        </form>
+    </div>
 
     </div>
 
+    <div class="card">
+        <form>
+            <a href="Page-Sécurité-Prévention.html">
+                <h2>Sécurité - Préventions</h2>
+                <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Padoue4.jpg" alt="Avatar"
+                    style="width:100%">
+
+                <div class="interne">
+
+                    <p> Toute les information relatives à la sécurités et la préventions dans la villes de Bruxelles
+                    </p>
+            </a>
+        </form>
+    </div>
+
+    </div>
+
+    </div>
+
+</div>
+
+    <footer>
+        <div class="icons">
+            <a href="https://twitter.com/villebruxelles" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com/BXLvilledebruxelles/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/bxl_online/?hl=fr" class="fa fa-instagram"></a>
+            <a href="https://github.com/zackcaussy/Bruxelles" class="fa fa-github"></a>
+        </div>
+
+        <p>Hôtel de Ville - Grand-Place – 1000 Bruxelles</p>
+        <p>Centre administratif - Boulevard Anspach 6 – 1000 Bruxelles </p>
+
+    </footer>
 
 </body>
+
+<script>
+    const menuHamburger = document.querySelector(".menu-burger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
 
 </html>
