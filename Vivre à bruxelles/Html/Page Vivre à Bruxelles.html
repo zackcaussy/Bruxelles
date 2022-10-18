@@ -9,7 +9,31 @@
     <link rel="stylesheet" href="../Css/StylePageVivreàBruxelles.css">
 </head>
 
+<script>
+    const menuHamburger = document.querySelector(".menu-burger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('mobile-menu')
+    })
+    </script>
+
 <body>
+<header>
+    <nav class="navbar">
+        <a href="#" class="logo">Bruxelles</a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#">Action Municipale</a></li>
+                <li><a href="#">Vivre à Bruxelles</a></li>
+                <li><a href="#">Services et Démarches</a></li>
+                <li><a href="#">Actualités et Sorties</a></li>
+                <li><a href="#">Infos et Contacts</a></li>
+            </ul>
+        </div>
+        <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Logo/menu-burger-full-white.png" alt="menu-burger" class="menu-burger">
+    </nav>
+    </header>
 
     <h1>Vivres à bruxelles</h1>
 
@@ -69,6 +93,15 @@
 
     </div>
 
+    <footer>
+        <div class="icons">
+            <a href="https://twitter.com/villebruxelles" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com/BXLvilledebruxelles/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/bxl_online/?hl=fr" class="fa fa-instagram"></a>
+            <a href="https://github.com/zackcaussy/Bruxelles" class="fa fa-github"></a>
+        </div>
+
+    </footer>
 
 </body>
 
