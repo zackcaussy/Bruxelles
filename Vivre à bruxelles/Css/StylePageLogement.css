@@ -48,3 +48,131 @@ td {
 p {
     text-align: justify;
 }
+
+/*Code Nav + Footer PAS TOUCHER !!!*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  body {
+    font-family: 'Ubuntu';
+  }
+
+  .nav-links {
+    font-size: medium;
+  }
+
+  header {
+
+    height: 30vh;
+    width: 100vw;
+    background-image: url(https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Zack7.jpeg);
+    background-size: cover;
+  }
+
+  .navbar {
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+
+  }
+
+  .navbar a {
+    color: rgb(255, 255, 255);
+  }
+
+  .navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: yellow;
+  }
+
+  .navbar .nav-links ul {
+    display: flex;
+  }
+
+  .navbar .nav-links ul li {
+    margin: 0 25px;
+
+  }
+
+  .navbar .nav-links ul li a:hover {
+    color: red;
+  }
+
+  .navbar .menu-burger {
+    display: none;
+
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    width: 35px;
+  }
+
+  footer {
+    height: 15vh;
+    width: 100vw;
+    background-image: url(https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Zack7.jpeg);
+    background-size: cover;
+    color: white;
+  }
+
+  @media screen and (max-width: 900px) {
+
+    .navbar {
+      padding: 0;
+    }
+
+    .navbar .logo {
+      position: absolute;
+      top: 40px;
+      left: 30px;
+    }
+
+    .navbar .menu-burger {
+      display: block;
+    }
+
+    .nav-links {
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: rgba(69, 58, 58, 0.315);
+      backdrop-filter: blur(8px);
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -100%;
+      transition: all 0.5s ease;
+    }
+
+    .nav-links.mobile-menu {
+
+      margin-left: 0;
+    }
+
+    .nav-links ul {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .navbar .nav-links ul li {
+      margin: 25px 0;
+      font-size: 1.2em;
+
+    }
+  }
+
+  /*Code Nav + Footer PAS TOUCHER !!!*/
