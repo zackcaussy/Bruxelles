@@ -3,10 +3,11 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 30%;
-  height: 525px;
+  height: 550px;
   text-align: center;
   border-radius: 5%;
-border: 1px solid rgb(101, 90, 155);
+border: 4px solid rgb(125, 126, 113);
+background-color: rgba(245, 245, 220, 0.662);
 
 }
 
@@ -28,6 +29,7 @@ h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 1%;
   margin-top: 1%;
+  color: rgba(220, 85, 85, 0.895);
 
 }
 /* Modifie la mise en page du SOUS TITRE */
@@ -37,8 +39,17 @@ h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 5%;
   margin-bottom: 5%;
+  color: rgba(14, 14, 12, 0.781);
 }
 
+p {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: rgba(6, 6, 6, 0.781);
+
+}
 /* Modifie la mise en page du SOUS TITRE */
 h4 {
 
@@ -46,13 +57,11 @@ h4 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 5%;
   margin-bottom: 5%;
+  color: rgba(230, 13, 13, 0.781);}
 /* Modifie la mise en page du PARAGRAPHE */
-.p {
 
-  text-align: center;
-  margin-top: 3%;
-  margin-bottom: 2%;
-}
+
+
 
 /* Modifie la mise en page du BOUTON ARTICLE et RETOUR MENU*/
 form {
@@ -61,15 +70,16 @@ form {
 }
 
 /* AJOUTE LE FLEX AU CONTAINER */
-.container {
+.section {
 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+ 
 
   /* AJOUTE une goulotte pour separer les cadres */
   gap: 30px;
-  /*background-color: rgba(174, 174, 155, 0.226);*/
+  background-color: rgba(174, 174, 155, 0.226)
 
   margin-left: 15px;
   margin-right: 15px;
@@ -80,9 +90,9 @@ form {
 
 
 /* AJOUTE le Media Queri pour modifier selon le support */
-@media all and (max-width: 1600px) {}
 
-@media all and (max-width: 720px) {
+
+@media screen  and (max-width: 1280px) {
 
 .card {
   width: 100%;
@@ -90,12 +100,11 @@ form {
 
 }
 
-@media all and (max-width: 300px) {}
-
- 
-main {
-
-}
+@media screen  and (max-width: 720px) {
+  
+  .card {
+  width: 100%;}
+ }
 
 header {
 

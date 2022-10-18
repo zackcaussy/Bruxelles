@@ -253,14 +253,14 @@ form .action input[type="submit"]{
 }
 
 
-form .icons a{
+.icons a{
 
     border: 1px solid white;
     border-radius: 50%;
     line-height: 36px;
     text-align: center;
     font-weight: 600;
-    width: 38px;
+    width: 40px;
     margin-right: 10px;
     
 }
@@ -277,7 +277,7 @@ footer {
     bottom: 0;
     height: 50px;
     width: 100%;
-    background-color: rgba(27, 31, 34, 0.80);
+    background-color: rgba(61, 68, 73, 0.521);
     color: white;
     text-align: center;
     padding: 5px;
@@ -328,7 +328,7 @@ body{
 header{
     height: 80px;
     width: 100%;
-    background-color: black;
+    background-color: rgba(61, 68, 73, 0.521);
 
 }
 
