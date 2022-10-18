@@ -11,9 +11,6 @@ body{
 
 header{
  
-
-
-
     height: 100vh;
     width: 100vw;
     background-image: url(https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Zack7.jpeg);
@@ -117,6 +114,9 @@ header{
     
 }
 
+.navbar .nav-links ul li a:hover{
+    color: red;
+}
 
 
 }
