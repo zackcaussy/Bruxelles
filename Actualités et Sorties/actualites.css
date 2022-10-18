@@ -3,7 +3,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 450px;
-  height: 600px;
+  height: 550px;
   text-align: center;
   border-radius: 5%;
 
@@ -20,25 +20,26 @@
   padding: 2px 44px;
 
 }
-
+/* Modifie la mise en page du TITRE */
 h1 {
 
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-
+/* Modifie la mise en page du SOUS TITRE */
 h2 {
 
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/* Modifie la mise en page du PARAGRAPHE */
 p {
 
   text-align: center;
 }
 
+/* Modifie la mise en page du BOUTON ARTICLE et RETOUR MENU*/
 form {
   text-align: right;
 
@@ -61,7 +62,6 @@ form {
 }
 
 b {
-
   text-align: center;
 }
 
