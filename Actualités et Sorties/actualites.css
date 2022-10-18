@@ -9,7 +9,6 @@
 
 }
 
-
 /* Quand Souris passse il ajoute l effet d'ombre */
 .card:hover {
   box-shadow: 0 30px 45px 0 rgba(0, 0, 0, 0.2);
@@ -66,7 +65,7 @@ b {
   text-align: center;
 }
 
-
+/* AJOUTE le Media Queri pour modifier selon le support */
 @media all and (max-width: 1600px) {}
 
 @media all and (max-width: 720px) {}
