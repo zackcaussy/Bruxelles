@@ -16,7 +16,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.502);
     transition: 0.3s;
     width: 450px;
-    ù height: 50px;
+    height: 50px;
     text-align: center;
     border-radius: 50%;
     align-items: center;
@@ -51,7 +51,7 @@
   }
 
   .card {
-    
+
     /* ajoute une ombre à "card" effet */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
