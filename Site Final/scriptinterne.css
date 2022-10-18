@@ -72,3 +72,8 @@ text-align: right;
 background-color: ivory;
 
   }
+
+  header {
+
+    height: 30vh;
+  }
