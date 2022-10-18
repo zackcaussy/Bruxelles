@@ -76,6 +76,10 @@
     font-family: 'Ubuntu';
   }
 
+  .nav-links{
+    font-size: medium;
+  }
+
   header {
 
     height: 100vh;
@@ -97,8 +101,7 @@
   }
 
   .navbar a {
-    color: white;
-
+    color: rgb(0, 0, 0);
   }
 
   .navbar .logo {
@@ -106,7 +109,6 @@
     font-weight: bold;
     color: yellow;
   }
-
 
   .navbar .nav-links ul {
     display: flex;
