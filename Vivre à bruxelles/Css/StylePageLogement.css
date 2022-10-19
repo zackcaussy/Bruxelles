@@ -541,6 +541,10 @@ footer {
   h1 {
     width: 380px;
   }
+
+  iframe{
+    width: 98%;
+  }
 }
 
 
