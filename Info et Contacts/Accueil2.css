@@ -175,7 +175,7 @@ position: absolute;
 
 
 footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     height: 50px;
@@ -186,13 +186,14 @@ footer {
     padding: 5px;
     font-size: 1.5em;
     
+    
 }
 
 
 footer .f-left{
     
     position: fixed;
-    width: 100%;
+    width: 30%;
     color: white;
     text-align: left;
     padding: 5px;
@@ -202,11 +203,15 @@ footer .f-left{
 
   footer .f-right{
     position: fixed;
-    width: 100%;
+    width: 30%;
     color: white;
-    text-align: right;
-    margin: -23px;
+   
+    
     font-size: 0.5em;
+    display: inline-block;
+    
+
+    
     
   }
 
