@@ -13,13 +13,14 @@
 
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.502);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.617);
     transition: 0.3s;
     width: 450px;
     height: 50px;
     text-align: center;
     border-radius: 50%;
     margin: auto;
+    margin-top: 1%;
     color: black;
 
   } 
@@ -35,7 +36,7 @@
     text-align: center;
   }
 
-  form {
+  form {p
     text-align: right;
 
   }
@@ -43,12 +44,11 @@
   .card {
 
     /* ajoute une ombre à "card" effet */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.365);
     transition: 0.3s;
-    width: 400px;
+    width: 420px;
     border-radius: 5%;
-    background-color: rgba(255, 255, 255, 0.204);
-    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.252);
     
   }
 
@@ -59,11 +59,8 @@
     flex-wrap: wrap;
     gap: 10%;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
-    margin-left: 15px;
-    margin-right: 15px;
-    min-height: 100vh;
 
   }
 
@@ -197,34 +194,6 @@ position: absolute;
     margin-left: 0;
 }
 
-
-
-
-form {
-    background: rgba(27, 31, 34, 0.80);
-    width: 640px;
-    margin: 50px auto;
-    max-width: 97%;
-    border-radius: 10px;
-    padding: 55px 30px;
-    box-sizing: border-box;
-   
-}
-
-
-
-
-/* form .title h2 {
-
-    font-family: 'Ubuntu', 'Montserra', 'Roboto', sans-serif;
-    letter-spacing: 6px;
-    border-bottom: 1px solid white;
-    display: inline-block;
-    padding-bottom: 8px;
-    margin-bottom: 32px;
-    
-} */
-
 .title .logo {  
     font-family: 'Ubuntu', 'Montserra', 'Roboto', sans-serif;
     font-size: 2em;
@@ -340,7 +309,6 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
     background: rgba(255,255,255, 0.075);
 } 
 
-
 footer {
     position: fixed;
     left: 0;
@@ -358,7 +326,6 @@ footer {
   .navbar .nav-links ul li a:hover{
     color: rgba(0, 255, 42, 0.541);
 }
-
 
 @media screen and (max-width:500px) {
 
@@ -457,7 +424,6 @@ header{
 
 }
 
-
 } 
 
 @media screen and (max-width: 850px) {
@@ -506,8 +472,6 @@ header{
             align-items: center;
         }
     
-    
-    
         .navbar .nav-links ul li{
         
             margin: 25px 0;
@@ -550,7 +514,6 @@ header{
         
         }
     
-    
     }
     
     @media screen and (max-width: 580px) {
@@ -559,7 +522,9 @@ header{
         .box{
             display: none;
     
-        
+        }
+        h1{
+          width: 380px;
         }
     }
 

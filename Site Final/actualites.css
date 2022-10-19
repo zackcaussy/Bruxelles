@@ -6,14 +6,14 @@
   height: 550px;
   text-align: center;
   border-radius: 5%;
-border: 4px solid rgb(125, 126, 113);
-background-color: rgba(245, 245, 220, 0.662);
+  border: 1px solid rgb(2, 2, 2, 0.63);
+background-color: rgba(2, 2, 2, 0.63);
 
 }
 
 /* Quand Souris passse il ajoute l effet d'ombre */
 .card:hover {
-  box-shadow: 0 30px 45px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 30px 45px 0 rgba(255, 255, 255, 0.726);
   color: rgb(101, 90, 155);
 }
 
@@ -29,7 +29,7 @@ h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 1%;
   margin-top: 1%;
-  color: rgba(220, 85, 85, 0.895);
+  color: rgba(255, 0, 0, 0.895);
 
 }
 /* Modifie la mise en page du SOUS TITRE */
@@ -39,7 +39,7 @@ h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 5%;
   margin-bottom: 5%;
-  color: rgba(14, 14, 12, 0.781);
+  color: rgb(255, 255, 255);
 }
 
 p {
@@ -47,8 +47,7 @@ p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 5%;
   margin-bottom: 5%;
-  color: rgba(6, 6, 6, 0.781);
-
+  color: rgb(255, 255, 255);
 }
 /* Modifie la mise en page du SOUS TITRE */
 h4 {
@@ -57,7 +56,7 @@ h4 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 5%;
   margin-bottom: 5%;
-  color: rgba(230, 13, 13, 0.781);}
+  color: rgb(255, 255, 255);}
 /* Modifie la mise en page du PARAGRAPHE */
 
 
@@ -109,4 +108,10 @@ form {
 header {
 
   height: 30vh;
+}
+
+
+.img {
+
+  width: 20%;
 }

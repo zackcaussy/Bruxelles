@@ -1,31 +1,31 @@
 /* CODE IFRAME NE PAS TOUCHER*/
 iframe {
-    width: 50%;
+  width: 50%;
 }
 
 iframe[Attributes-Style] {
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    height: 450px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  height: 450px;
 }
 
 iframe {
-    border-style: inset;
-    border-color: initial;
-    border-image: initial;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
 }
 
 /* CODE IFRAME NE PAS TOUCHER */
 
 /*CODE POUR REMONTER EN HAUT NE PAS TOUCHER*/
 #scrollUp {
-    position: absolute;
-    position: fixed;
-    bottom: 10px;
-    right: 0px;
-    opacity: 0.5;
+  position: absolute;
+  position: fixed;
+  bottom: 10px;
+  right: 0px;
+  opacity: 0.5;
 }
 
 /*CODE POUR REMONTER EN HAUT NE PAS TOUCHER*/
@@ -33,50 +33,360 @@ iframe {
 /*CODE TABLEAUX NE PAS TOUCHER*/
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 th,
 td {
-    border: 1px solid black;
-    background-color: rgb(255, 255, 255);
-    padding: 5px;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  color: black;
 }
 
 /*CODE TABLEAUX NE PAS TOUCHER*/
 
+.conteneur {
+
+  align-items: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 98%;
+  background-color: rgba(255, 255, 255, 0.267);
+  padding: 1%;
+
+}
+
 p {
-    text-align: justify;
+  text-align: justify;
+  color: black;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+h2,
+h3,
+a {
+  color: black;
 }
 
 /*Code Nav + Footer PAS TOUCHER !!!*/
 
 * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Ubuntu', 'Montserra', 'Roboto', sans-serif;
+  color: white;
+
+}
+
+body {
+
+  background-image: url(https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Zack7.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  font-family: 'Ubuntu', 'Montserra', 'Roboto', sans-serif;
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(61, 68, 73, 0.521);
+
+}
+
+.navbar {
+
+  position: absolute;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+
+
+}
+
+.navbar a {
+
+  color: white;
+}
+
+.navbar .logo {
+
+  font-size: 2em;
+  font-weight: bold;
+  color: yellow;
+  padding-right: 25px;
+
+}
+
+.box {
+
+  width: 200px;
+  height: 15px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex: inline-block;
+  align-items: center;
+  padding: 5px;
+
+}
+
+.box>i {
+
+  font-size: 13px;
+  color: #777;
+
+}
+
+.box>input {
+
+
+  height: 20px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+
+
+}
+
+.navbar .nav-links ul {
+
+  display: flex;
+  font-size: medium;
+  font-weight: lighter;
+  padding: 0px;
+
+}
+
+.navbar .nav-links ul li {
+  margin: 0 25px;
+  color: white;
+}
+
+.fifth {
+  display: none;
+
+}
+
+.navbar .nav-links ul li:hover .fifth {
+
+  display: block;
+  position: absolute;
+}
+
+
+/*Menu Burger*/
+
+.navbar .menu-burger {
+  display: none;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 35px;
+}
+
+
+.mobile-menu {
+  margin-left: 0;
+}
+
+.title .logo {
+  font-family: 'Ubuntu', 'Montserra', 'Roboto', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: yellow;
+  border-bottom: 1px solid white;
+  padding-bottom: 7px;
+  margin-bottom: 32px;
+
+}
+
+.nav-links {
+
+  font-family: 'Ubuntu', 'Montserra', 'Roboto', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: yellow;
+
+
+}
+
+form .half {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+form .half .item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 48%;
+}
+
+form label {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 3.5px;
+  margin-bottom: 16px;
+
+}
+
+form .half .item input {
+
+  border-radius: 4px;
+  border: 1px solid white;
+  outline: 0;
+  padding: 16px;
+  width: 100%;
+  height: 44px;
+  background: transparent;
+  font-size: 17px;
+}
+
+form .full {
+
+  margin-bottom: 24px;
+}
+
+form .full textarea {
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid white;
+  outline: 0;
+  padding: 12px 16px;
+  width: 100%;
+  height: 200px;
+  font-size: 17px;
+}
+
+form .action {
+
+  margin-bottom: 32px;
+}
+
+form .action input {
+
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  height: 44px;
+  letter-spacing: 3px;
+  outline: 0;
+  padding: 0 20px 0 22px;
+  margin-right: 10px;
+}
+
+
+form .action input[type="submit"] {
+
+  background: white;
+  color: black;
+}
+
+
+form .icons a {
+
+  border: 1px solid white;
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 600;
+  width: 38px;
+  margin-right: 10px;
+
+}
+
+form .half .item input:focus,
+form .full textarea:focus,
+form .action input[type="reset"]:hover,
+form .icons a:hover {
+
+  background: rgba(255, 255, 255, 0.075);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(27, 31, 34, 0.80);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.5em;
+
+}
+
+.navbar .nav-links ul li a:hover {
+  color: rgba(0, 255, 42, 0.541);
+}
+
+@media screen and (max-width:500px) {
+
+  form .half {
+    flex-direction: column;
+  }
+
+  form .half .item {
+    width: 100%;
+  }
+
+  form .action {
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  form .action input {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  * {
     margin: 0;
     padding: 0;
-    list-style: none;
     text-decoration: none;
+    list-style: none;
   }
 
   body {
-    font-family: 'Ubuntu';
-  }
 
-  .nav-links {
-    font-size: medium;
+    font-family: 'Ubuntu', 'Montserra', 'Roboto', sans-serif;
+    height: 100vh;
+    width: 100%;
   }
 
   header {
+    height: 80px;
+    width: 100%;
+    background-color: black;
 
-    height: 30vh;
-    width: 100vw;
-    background-image: url(https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Zack7.jpeg);
-    background-size: cover;
   }
 
   .navbar {
+
     position: absolute;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,93 +396,159 @@ p {
   }
 
   .navbar a {
-    color: rgb(255, 255, 255);
-  }
 
-  .navbar .logo {
-    font-size: 2em;
-    font-weight: bold;
-    color: yellow;
-  }
-
-  .navbar .nav-links ul {
-    display: flex;
-  }
-
-  .navbar .nav-links ul li {
-    margin: 0 25px;
-
-  }
-
-  .navbar .nav-links ul li a:hover {
-    color: red;
-  }
-
-  .navbar .menu-burger {
-    display: none;
-
-    position: absolute;
-    top: 50px;
-    right: 30px;
-    width: 35px;
-  }
-
-  footer {
-    height: 15vh;
-    width: 100vw;
-    background-image: url(https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Zack7.jpeg);
-    background-size: cover;
     color: white;
   }
 
-  @media screen and (max-width: 900px) {
+  .navbar .logo {
 
-    .navbar {
-      padding: 0;
-    }
+    font-size: 2em;
+    font-weight: bold;
+    color: yellow;
+    padding-right: 25px;
 
-    .navbar .logo {
-      position: absolute;
-      top: 40px;
-      left: 30px;
-    }
-
-    .navbar .menu-burger {
-      display: block;
-    }
-
-    .nav-links {
-      top: 0;
-      left: 0;
-      position: absolute;
-      background-color: rgba(69, 58, 58, 0.315);
-      backdrop-filter: blur(8px);
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: -100%;
-      transition: all 0.5s ease;
-    }
-
-    .nav-links.mobile-menu {
-
-      margin-left: 0;
-    }
-
-    .nav-links ul {
-
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .navbar .nav-links ul li {
-      margin: 25px 0;
-      font-size: 1.2em;
-
-    }
   }
 
-  /*Code Nav + Footer PAS TOUCHER !!!*/
+  .box {
+
+    width: 200px;
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+  }
+
+  .box>i {
+
+    font-size: 13px;
+    color: #777;
+
+  }
+
+  .box>input {
+
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    padding-left: 10px;
+
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .logo {
+
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: yellow;
+  }
+
+  .navbar .menu-burger {
+    display: block;
+  }
+
+  .nav-links {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(116, 114, 114, 0.149);
+    backdrop-filter: blur(7px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100%;
+    transition: all 0.5s ease;
+
+  }
+
+  .nav-links.mobile-menu {
+
+    margin-left: 0;
+  }
+
+  .nav-links ul {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .nav-links ul li {
+
+    margin: 25px 0;
+    font-size: 1.2em;
+
+
+  }
+
+  .box {
+    position: relative;
+    top: 25px;
+    left: 300px;
+    width: 200px;
+    height: 15px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+
+  }
+
+  .box>i {
+
+    font-size: 13px;
+    color: #777;
+
+  }
+
+  .box>input {
+
+    flex: 1;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    padding-left: 10px;
+
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+
+
+  .box {
+    display: none;
+
+  }
+
+  h1 {
+    width: 380px;
+  }
+
+  iframe{
+    width: 98%;
+  }
+}
+
+
+
+
+
+/*Code Nav + Footer PAS TOUCHER !!!*/
