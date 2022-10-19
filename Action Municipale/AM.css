@@ -5,23 +5,32 @@
 .icons {
     text-align: center;
 }
+.container {
+display: flex;
+width: 50%;
+margin: auto;
+flex-wrap: wrap;
+gap: 30px;
+min-height: 100vh;
+
+ }
 
 .card {
     /* ajoute une ombre à "card" effet */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-        width : 450px;
-        height : 600px;
+        width : 40%;
+        height : 330px;
         text-align: center;
         border-radius: 5%;
-        background-color: rgba(174, 174, 155, 0.226);
-        
+        background-color: rgba(2, 2, 2, 0.63);
+        margin: auto;
         }
   
   
   /* Quand Souris passse il ajoute l effet d'ombre */
   .card:hover {
-    box-shadow: 0 30px 45px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 30px 45px 0 rgba(0, 0, 0, 0.473);
   }
   
   /* Ajoute un padding au INTERNE */
@@ -32,11 +41,11 @@
 
   .Face {
     width: 100%;
+    height: 70%;
   }
 
   .bike {
     width: 100%;
-    height: 56%;
   }
 
   .handshake {
@@ -49,7 +58,6 @@
   * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
     list-style: none;
     font-family: 'Ubuntu', 'Montserra', 'Roboto', sans-serif;
@@ -319,7 +327,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 
 
 footer {
-    position: fixed;
+    position: bottom;
     left: 0;
     bottom: 0;
     height: 50px;
