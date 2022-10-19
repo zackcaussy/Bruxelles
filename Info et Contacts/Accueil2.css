@@ -65,6 +65,7 @@ header{
 
 
 
+
 }
 
 .conteneur input{
@@ -77,7 +78,7 @@ header{
 
 .conteneur input[type="text"]{
 
-    background: white;
+    background: rgb(80, 73, 73);
     width: 340px;
     height: 50px;
     border: none;
@@ -125,8 +126,6 @@ background: #ff572;
     color: white;
 }
 
-.fifth{
-display: none;
 
 }
 
@@ -187,7 +186,31 @@ footer {
     padding: 5px;
     font-size: 1.5em;
     
+}
+
+
+footer .f-left{
+    
+    position: fixed;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    font-size: 0.5em;
+    
   }
+
+  footer .f-right{
+    position: fixed;
+    width: 100%;
+    color: white;
+    text-align: right;
+    margin: -23px;
+    font-size: 0.5em;
+    
+  }
+
+
 
   .navbar .nav-links ul li a:hover{
     color: rgba(0, 255, 42, 0.541);
