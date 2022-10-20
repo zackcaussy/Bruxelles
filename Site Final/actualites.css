@@ -3,7 +3,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 30%;
-  height: 550px;
+  height: 600px;
   text-align: center;
   border-radius: 5%;
   border: 1px solid rgb(2, 2, 2, 0.63);
@@ -45,18 +45,31 @@ h2 {
 p {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+<<<<<<< HEAD
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: rgba(6, 6, 6, 0.781);
+
+=======
   margin-top: 5%;
   margin-bottom: 5%;
   color: rgb(255, 255, 255);
+>>>>>>> c953f26cebde1ab53471a13b1534b009712687ad
 }
 /* Modifie la mise en page du SOUS TITRE */
 h4 {
 
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+<<<<<<< HEAD
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: rgba(230, 13, 13, 0.781);}
+=======
   margin-top: 5%;
   margin-bottom: 5%;
   color: rgb(255, 255, 255);}
+>>>>>>> c953f26cebde1ab53471a13b1534b009712687ad
 /* Modifie la mise en page du PARAGRAPHE */
 
 
@@ -111,7 +124,3 @@ header {
 }
 
 
-.img {
-
-  width: 20%;
-}

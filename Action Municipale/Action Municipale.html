@@ -14,7 +14,7 @@
     <link rel="styleesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="AM.css">
-    <title>Bruxelles - Action Municipale</title>
+    <title>Ville de Bruxelles - Action Municipale</title>
 </head>
 <body>
     <header>
@@ -115,6 +115,16 @@
             </div>
         </div>
    </footer>
- 
+   <script>
+    const menuHamburger = document.querySelector(".menu-burger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+
+    
+</script>
+
 </body>
 </html>

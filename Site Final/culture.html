@@ -15,22 +15,8 @@
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="trame.css">
     <link rel="stylesheet" href="actualites.css">
-
+<link rel="stylesheet" href="scriptinterne.css">
     <title></title>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" type="text/css"
-        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="scriptinterne.css">
-    <title>Trame</title>
 </head>
 <body>
 
@@ -50,18 +36,14 @@
     <header></header>
 
 <body>
-    <form>
-        <a href="actualites.html">
-            <input type="button" value="RETOUR MENU">
-        </a>
-    </form>
-    <div class="container">
+    
+    
         <div class="card">
 
             <h1>BRUXELLES - Une « cité lumière » </h1>
 
 
-            <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Alex1dinosaure.jpg"
+            <img src="https://www.dhnet.be/resizer/YHzK7WWftFIMLDsVb30CtECWAUg=/1620x1080/smart/cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/YDLLK6BVJJA5ZITSG77UBAZ2HM.jpg"
                 alt="Avatar" style="width:50%">
             <h4><b>Plaisirs d'Hiver et marché de Noël 2022</b></h4>
             <div class="interne">
@@ -106,13 +88,33 @@
                     du béton.
                 </p>
 
-                <form>
-                    <a href="actualites.html">
-                        <input type="button" value="RETOUR MENU">
-                    </a>
-                </form>
+                
             </div>
         </div>
+
+</body>
+
+</html>
+
+<footer>
+    <div class="icons">
+        <a href="https://twitter.com/villebruxelles" class="fa fa-twitter"></a>
+        <a href="https://www.facebook.com/BXLvilledebruxelles/" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/bxl_online/?hl=fr" class="fa fa-instagram"></a>
+        <a href="https://github.com/zackcaussy/Bruxelles" class="fa fa-github"></a>
+    </div>
+
+</footer>
+<script>
+const menuHamburger = document.querySelector(".menu-burger")
+const navLinks = document.querySelector(".nav-links")
+
+menuHamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('mobile-menu')
+})
+
+
+</script>
 
 </body>
 
