@@ -1,8 +1,8 @@
 *{box-sizing: border-box;}
 .carousel {
   position: relative;
-  width: 1000px;
-  height: 500px;
+  width: 100%;
+  height: 200px;
   overflow: hidden;
   background-color: #cdcdcd;
 }
