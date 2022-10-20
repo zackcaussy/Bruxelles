@@ -11,7 +11,7 @@
 
 body{
 
-    background-image: url(https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Zack7.jpeg);
+    background-color: #bbbbbb;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -590,7 +590,7 @@ header{
     .mairie-BXL{
         width: 100vh;
         height: auto;
-        
+
     }
     
     
