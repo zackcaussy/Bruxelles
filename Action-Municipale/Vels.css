@@ -25,7 +25,7 @@ p{
 header{
     height: 80px;
     width: 100%;
-    background-color: rgba(61, 68, 73, 0.521);
+    background-color: rgba(65, 71, 75, 0.521);
 
 }
 
@@ -251,6 +251,51 @@ form .action input[type="submit"]{
     background: white;
     color: black;
 }
+.velstexte{
+    color: black;
+}
+p { 
+    color: black;
+}
+/* FLEX PART */
+
+.bloctitre {
+
+margin-top: 10px;
+margin-left: 10px;
+display: flex;
+flex-direction: column;
+  
+    
+
+}
+
+
+.blocbio {
+width: 50%;
+display: flex;    
+margin-left: 10px;
+margin-top: 5px;
+background-color: #bbbbbbb0;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FLEX PART*/
+
 
 
 form .icons a{
@@ -630,6 +675,12 @@ header{
             padding-left: 10px;
         
         }
+      
+       
+        
+        
+        
+        
     
     
     }
