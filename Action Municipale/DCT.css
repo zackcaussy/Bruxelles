@@ -327,7 +327,6 @@ header{
     width: 100%;
     height: auto;
     margin-top: 40px;
-
     flex-direction: row-reverse;
 
     
@@ -336,12 +335,12 @@ header{
 .bloctexte {
     display: flex;
    margin-top: 30px;
-   margin-left: 10px;
-   margin-right: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
 }
 .bloc {
-
-    background-color: rgba(61, 68, 73, 0.521);
+    border-radius: 10px;
+    background-color: rgba(61, 68, 73, 0.863);
     display: flex;
     align-content: center;
     justify-content: center;
