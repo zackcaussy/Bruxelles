@@ -366,6 +366,20 @@ footer {
     color: rgba(0, 255, 42, 0.541);
 }
 
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+   }
+   .map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+   }
+
 
 @media screen and (max-width:500px) {
 
@@ -483,7 +497,7 @@ header{
     }
 
     .boite2{
-        width: 100%;
+        width: 400px;
         margin-top: 6%;
         padding-left: 0;
         margin-left: 0;
