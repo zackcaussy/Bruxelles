@@ -11,6 +11,7 @@ Nos dossiers sont constitués de:
     CSS
     Icon
     Images
+    Wireframe
     La liste de HTML
 
 Pas d'erreur au validateur W3C:
