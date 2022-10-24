@@ -137,6 +137,7 @@ th{
     margin-left: 20px;
     text-decoration: underline;
     color: green;
+    margin-bottom: 20px;
  }
 
  .boite3 section ul{
@@ -151,7 +152,9 @@ table{
     margin-bottom: 20px;
 }
 
- 
+ ifram{
+    margin-left: 20px;
+ }
 
 
 nav .element1{

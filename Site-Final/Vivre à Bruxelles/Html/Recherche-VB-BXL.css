@@ -69,6 +69,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 100px;
     
 }
 
@@ -847,6 +848,7 @@ ul{
     
     background-color: rgba(134, 134, 134, 0.412);
     padding: 10px 0;
+    position: relative;
     
 }
 .footer-col{
