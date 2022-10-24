@@ -219,13 +219,11 @@ nav .element4:hover{
     color: white;
 }
 
-#conteneur h1{
+.conteneur h1{
     color:rgb(10, 10, 71);
-    padding: 20px;
     justify-content: center;
     margin-top: 20px;
     margin-left: 20px;
-
     
 }
 
@@ -246,10 +244,28 @@ h3{
    
 }
 
+h4{
+    color: blue;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+h5{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
 p{
     line-height: 1.3;
     margin-bottom: 10px;
     margin-left: 20px;
+ }
+
+ .boite1 a{
+    padding-left: 20px;
+    
+    color: green;
+    text-decoration: underline;
  }
 
  .boite2{
