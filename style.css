@@ -3,27 +3,124 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    
 }
 
 body{
 
     font-family: 'Ubuntu', 'Montserra', 'Roboto', sans-serif;
-
+    height: 100vh;
+    width: 100%;
 }
 
 header{
-
-    height: 100vh;
-    width: 100vw;
-    background-image: url(https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Images/Zack7.jpeg);
-    background-size: cover;
-
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: black;
 }
 
-.navbar{
 
+#menu-demo2, #menu-demo2 ul{
+    padding:0;
+    margin:0;
+    text-align:center;
+    }
+    #menu-demo2 li{
+    position:relative;
+    border-radius:8px 8px 0 0;
+    }
+    #menu-demo2 ul li{
+    display:inherit;
+    border-radius:0;
+    }
+    #menu-demo2 ul li:hover{
+    border-radius:0;
+    }
+    #menu-demo2 ul li:last-child{
+    border-radius:0 0 8px 8px;
+    }
+    #menu-demo2 ul{
+    position:absolute;
+    z-index: 1000;
+    max-height:0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .8s all .3s;
+    transition: .8s all .3s;
+    }
+    #menu-demo2 li:hover ul{
+    max-height:15em;
+    }
+    /* background des liens menus */
+    #menu-demo2 li:first-child{
+    background-color: #65537A;
+    background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
+    }
+    #menu-demo2 li:nth-child(2){
+    background-color: #729EBF;
+    background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+    }
+    #menu-demo2 li:nth-child(3){
+    background-color: #F6AD1A;
+    background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
+    }
+    #menu-demo2 li:last-child{
+    background-color: #CFFF6A;
+    background-image:linear-gradient(to bottom, #CFFF6A 0%, #677F35 100%);
+    }
+    /* background des liens sous menus */
+    #menu-demo2 li:first-child li{
+    background:#2A2333;
+    }
+    #menu-demo2 li:nth-child(2) li{
+    background:#333A40;
+    }
+    #menu-demo2 li:nth-child(3) li{
+    background:#9F391A;
+    }
+    #menu-demo2 li:last-child li{
+    background:#677F35;
+    }
+    /* background des liens menus et sous menus au survol */
+    #menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
+    background:#65537A;
+    }
+    #menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
+    background:#729EBF;
+    }
+    #menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
+    background:#F6AD1A;
+    }
+    #menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
+    background:#CFFF6A;
+    }
+    /* les a href */
+    #menu-demo2 a{
+    text-decoration:none;
+    display:block;
+    padding:8px 70px;
+    
+    
+    }
+    #menu-demo2 ul a{
+    padding:8px 0;
+    }
+    #menu-demo2 li:hover li a{
+    color:#fff;
+    text-transform:inherit;
+    }
+    #menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+    color:#000;
+    }
+
+
+.navbar{
+    
     position: absolute;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,59 +139,81 @@ header{
     font-size: 2em;
     font-weight: bold;
     color: yellow;
+    padding-right: 25px;
+    
+    
 }
 
+.box {
+
+	width: 200px;
+	height: 15px;
+	background-color: white;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	padding: 8px;
+
+}
+
+.box > i {
+
+	font-size: 13px;
+	color: #777;
+
+}
+
+.box > input{
+
+	
+	height: 20px;
+	border: none;
+	outline: none;
+	font-size: 13px;
+	
+
+}
 
 .navbar .nav-links ul{
 
-    display: flex;
-    font-size: large;
+    display: inline-flex;
+    font-size: medium;
     font-weight: lighter;
+    flex-wrap: wrap;
 
 }
 
-.navbar .nav-links ul li{
-    
+.navbar .nav-links ul li {
     margin: 0 25px;
+    color:white;  
     
 }
 
-.navbar .nav-links ul li.first a{
-    
-    color: ;
-        
+.navbar .nav-links ul li.first a:hover{
+    color: rgb(0, 140, 255);    
 }
 
-.navbar .nav-links ul li.second a{
-    
-    color: ;
-        
+.navbar .nav-links ul li.second a:hover{
+    color: rgb(165, 95, 231);  
 }
 
-.navbar .nav-links ul li.third a{
-    
-    color: ;
-        
+.navbar .nav-links ul li.third a:hover{
+    color: red;  
 }
 
-.navbar .nav-links ul li.forth a{
-    
-    color: ;
-        
+.navbar .nav-links ul li.forth a:hover{
+    color: orange;      
 }
 
-
-.navbar .nav-links ul li.fifth a{
-    
-    color: ;
-        
+.navbar .nav-links ul li.fifth a:hover{
+    color: green;    
 }
 
 .navbar .menu-burger{
     display: none;
     position: absolute;
-    top: 50px;
-    right: 30px;
+    top: 25px;
+    right: 25px;
     width: 35px;
 }
 
@@ -104,6 +223,33 @@ header{
     margin-left: 0;
 }
 
+p{
+padding-left: 5px;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    text-align: center;
+    padding-left: 5px;
+    font-size: 2em;
+  }
+
+.icons{
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;  
+}
 
 @media screen and (max-width: 850px) {
     
@@ -114,7 +260,7 @@ header{
 .navbar .logo{  
 
     position: absolute;
-    top: 50px;
+    top: 20px;
     left: 30px;
     color: yellow;
 }
@@ -161,10 +307,49 @@ header{
         
     }
 
+    .box{
+        position: relative;
+        top: 25px;
+        left: 300px;
+        width: 200px;
+        height: 15px;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
 
+    
+    }
+    
+    .box > i {
+    
+        font-size: 13px;
+        color: #777;
+    
+    }
+    
+    .box > input{
+    
+        flex: 1;
+        height: 20px;
+        border: none;
+        outline: none;
+        font-size: 13px;
+        padding-left: 10px;
+    
+    }
 
 
 }
 
+@media screen and (max-width: 580px) {
 
 
+    .box{
+        display: none;
+
+    
+    }
+}
