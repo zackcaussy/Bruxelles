@@ -67,10 +67,71 @@
                         Pour bénéficier d'un emplacement dans un box à vélos, les demandeurs doivent être domicilié sur le territoire de la Ville de Bruxelles. Les places sont attribuées par ordre de date des demandes. A cette fin une liste d’attente par lieu d’emplacement est établie.
                     </p>
                     &nbsp;
-                    <h1 class="texte">Gestion :</h1>
+                    <h2 class="texte">Gestion :</h2>
                     <p class="texte">La gestion des box à vélos a été confié à l'asbl Cyclo.</p>
             </div>
         </div>
+        
+        <div class="bloctexte2">
+            <div class="bloc2">
+                
+                <button type="button" class="collaspeMTB" data-toggle="collaspe"><h2 class="texte">Métros, trams et bus</h2></button>
+            <div class="content">
+                <p class="texte">Le réseau des transports en commun (métro, trams et bus) qui circule dans la capitale est géré en majorité par la Société de Transport Intercommunale Bruxelloise (STIB).</p>
+                &nbsp;
+                <p class="texte">Certaines lignes de bus sont gérées par la société De Lijn</p>
+                &nbsp;
+                <p class="texte">Les sites web de ces sociétés de transports public permettent de connaître le plan du réseaux et bien plus...</p>
+                &nbsp;
+                <ul>
+                    <li>
+                        <a href="http://stib.be/">STIB</a>
+                    </li>
+                </ul>
+         
+                &nbsp;
+                <p class="texte">Le réseau Noctis de la Stib, composé de 11 lignes, est actif la nuit, les vendredis et les samedis, de minuit à 3h.</p>
+                &nbsp;
+                <ul>
+                    <li>
+                        <a href="https://www.stib-mivb.be/article.html?l=fr&_guid=c0eb4836-1383-3410-439b-c10dad1f40fc">Noctis</a>
+                    </li>
+                </ul>
+                <p class="texte" >Certaines lignes de bus à Bruxelles sont aussi gérées par :</p>
+                &nbsp;
+                
+                <ul>
+                    <li>
+                        <a href="http://delijn.be/">De Lijn</a>
+                    </li>
+                </ul>
+             
+            </div>
+<div class="line"></div>
+            &nbsp;
+            <button type="button" class="collaspeMTB"><h2 class="texte">Trains</h2></button>
+            <div class="content">
+    
+                &nbsp;
+                <p class="texte">Les trains ont gérés par : </p>
+                &nbsp;
+                <ul>
+                    <li>
+                        <a target="_blank" href="http://www.belgianrail.be/fr">SNCB</a>
+                    </li>
+                </ul>  
+                <ul>
+                    <li>     
+                        &nbsp;
+                        <h3 class="texte">Plan du métro et des trains</h3>
+                        <a target="_blank" href="/sites/default/files/bxl/Plan_Metro_Train_0.pdf">Plan du réseau bruxellois (métro + train)</a>
+                    </li>
+                </ul>
+                </div>
+                <div class="line">
+            </div>
+        </div>
+        
 
 </main>
 <footer class="footer">
@@ -118,12 +179,25 @@
 <script>
     const menuHamburger = document.querySelector(".menu-burger")
     const navLinks = document.querySelector(".nav-links")
-
+    
     menuHamburger.addEventListener('click', () => {
         navLinks.classList.toggle('mobile-menu')
     })
-
     
+    var coll = document.getElementsByClassName("collaspeMTB");
+var i;
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
 </script>
 
 </body>
