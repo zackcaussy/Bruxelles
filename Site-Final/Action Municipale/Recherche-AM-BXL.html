@@ -13,10 +13,10 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="Accueil-BXL.css">
+    <link rel="stylesheet" href="Recherche-AM-BXL.css">
 
 
-    <title>Accueil</title>
+    <title>Infos et Contacts</title>
 </head>
 
 <body>
@@ -26,29 +26,44 @@
             <div class="nav-links">
 
                 <ul>
-                    <li><a href="#">Action Municipale</a></li>
+                    <li><a href="Recherche-AM-BXL.html">Action Municipale</a></li>
                     <li><a href="#">Vivre à Bruxelles</a></li>
                     <li><a href="#">Services et Démarches</a></li>
-                    <li><a href="#">Actualités et Sorties</a></li>
+                    <li><a href="">Actualités et Sorties</a></li>
                     <li><a href="Recherche-BXL.html">Infos et Contacts</a></li>
                 </ul>
+
             </div>
             <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Logo/menu-burger-full-white.png"
                 alt="menu-burger" class="menu-burger">
+
         </nav>
     </header>
 
-    <div class="conteneur">
 
-        <section class="boite1">
-          
-        </section>
-
-        <section class="boite2">
-            
-        </section>
-
+    <div id="conteneur">
+        <p><h1>Action Municipale</h1></p>
+        <nav>
+            <div class="element1">
+                <div><a href="votrebourgmestre.html"><i class='fa-solid fa-user-tie'></i></a></div>
+                Votre Bourgmestre
+            </div>
+            <div class="element2">
+                <div><a href="Deplacements.html"><i class='fa-solid fa-car'></i> </a></div>
+                Déplacements
+            </div>
+            <div class="element3">
+                <div><a href="RelationsInternationales.html"><i class="fa-solid fa-earth-europe"></i></a></div>
+                Relation Internationales
+            </div>
+            <div class="element4">
+                <div><a href="Education.html"><i class="fa-solid fa-user-graduate"></i></a></div>
+                Education
+            </div>
+        </nav>
     </div>
+
+
 
     <footer class="footer">
         <div class="piedpage">
@@ -95,7 +110,13 @@
 
 </body>
 
+<script>
+    const menuHamburger = document.querySelector(".menu-burger")
+    const navLinks = document.querySelector(".nav-links")
 
-
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
 
 </html>
