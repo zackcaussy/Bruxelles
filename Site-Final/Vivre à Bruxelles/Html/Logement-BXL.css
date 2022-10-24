@@ -86,13 +86,26 @@ header{
     
 }
 
-th,td {
+th{
    border: 1px solid black;
    background-color: rgb(255, 255, 255);
-  
    margin-left: 20px;
  }
 
+ td{
+    border: 1px solid black;
+   background-color: rgb(255, 255, 255);
+   margin-left: 20px;
+ }
+
+
+
+ 
+ .boite1 section a{
+    margin-left: 20px;
+    text-decoration: underline;
+    color: green;
+ }
 
  .map-responsive{
     margin-left: 20px;
@@ -221,6 +234,7 @@ h2{
     color:rgba(217, 84, 32, 0.804);
     margin-bottom: 10px;
     margin-left: 20px;
+    margin-top: 20px;
    
 }
 
@@ -228,6 +242,7 @@ h3{
     
     color:rgba(124, 108, 65, 0.575);
     margin-bottom: 10px;
+    margin-left: 20px;
    
 }
 
@@ -236,6 +251,25 @@ p{
     margin-bottom: 10px;
     margin-left: 20px;
  }
+
+ .boite2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ }
+
+ #btt {
+    opacity: 0;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 30px;
+    margin: 5px;
+    right: 20px;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
 
 nav ul{
     
@@ -517,7 +551,7 @@ footer {
    .map-responsive iframe {
     left:0;
     top:0;
-    height:100%;
+    height:70%;
     width:100%;
     position:absolute;
    }
@@ -673,7 +707,7 @@ header{
 
     .boite2{
         width: 400px;
-        margin-top: 6%;
+        margin-top: 10px;
         padding-left: 0;
         margin-left: 0;
     }
