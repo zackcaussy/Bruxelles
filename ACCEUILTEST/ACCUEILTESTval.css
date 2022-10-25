@@ -71,13 +71,22 @@ header{
     margin-left: 10px;
     margin-right: 10px;
 }
+.line2 {
+    border-radius: 10px ;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 .conteneurbar{
     display: flex;
-    margin-right: 5px;
-    margin-top: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
     flex-direction: row-reverse;
+
 
     }
 .conteneur1 {
@@ -87,8 +96,9 @@ header{
    margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     gap: 50px;
+    
 }
 
 img{
