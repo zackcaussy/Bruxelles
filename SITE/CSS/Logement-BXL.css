@@ -285,7 +285,7 @@ ul{
 	background-color: white;
 	border-radius: 5px;
 	display: flex;
-    flex: inline-block;
+
 	align-items: center;
 	padding: 5px;
 
@@ -707,7 +707,7 @@ header{
         width: 400px;
         margin-top: 10px;
         padding-left: 0;
-        margin-left: 20;
+        margin-left: 20px;
     }
 
     .boite3 {

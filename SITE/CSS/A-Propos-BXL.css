@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -256,7 +256,7 @@ ul{
 	background-color: white;
 	border-radius: 5px;
 	display: flex;
-    flex: inline-block;
+   
 	align-items: center;
 	padding: 5px;
 

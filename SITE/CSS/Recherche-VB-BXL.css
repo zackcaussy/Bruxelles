@@ -241,7 +241,7 @@ ul{
 	background-color: white;
 	border-radius: 5px;
 	display: flex;
-    flex: inline-block;
+   
 	align-items: center;
 	padding: 5px;
 
@@ -855,11 +855,7 @@ ul{
     
     background-color: rgba(134, 134, 134, 0.412);
     padding: 10px 0;
-<<<<<<< HEAD
     position: relative;
-=======
-    position: fixed;
->>>>>>> afaa1952120307f3d79e38bc05b2a68c5acadbe5
     
 }
 .footer-col{
