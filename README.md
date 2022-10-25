@@ -13,6 +13,7 @@ Nos dossiers sont constitués de:
     Icon
     Images
     Wireframe
+    Ajout Boilerplate - Page 404
     La liste de HTML
 
 Pas d'erreur au validateur W3C:
