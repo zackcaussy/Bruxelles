@@ -6,7 +6,7 @@
     list-style: none;
     font-family: 'Ubuntu', 'Montserra', 'Roboto', sans-serif;
     color: rgb(10, 10, 71);
-
+   
 }
 
 body{
@@ -26,8 +26,8 @@ header{
     width: 100%;
     background-color: rgba(134, 134, 134, 0.412);
     
-
 }
+
 
 .navbar{
     top: 0;
@@ -64,52 +64,48 @@ header{
     color:red;
 }
 
-#conteneur nav{
-    margin-top: 100px;
+.conteneur{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 20px;
-    
-}
-
-#conteneur nav{
-    margin-top: auto;
-    margin-left: 20px;
-
-}
-
-#conteneur nav div i{
-    font-size: 50px;
-    margin-bottom: 50px;
-    color: white;
-    
-}
-
-th{
-   border: 1px solid black;
-   background-color: rgb(255, 255, 255);
-   margin-left: 20px;
- }
-
- td{
-    border: 1px solid black;
-   background-color: rgb(255, 255, 255);
-   margin-left: 20px;
- }
-
-
-section a{
-    
-    text-decoration: underline;
-    color: green;
- }
-
- .map-responsive{
-    margin-left: 20px;
-    width: 640px;
+    width: 100vw;
     height: auto;
-}
+    margin-top: 10px;
+    margin-bottom: 95px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    }
+
+
+    .boite1{
+        width:37%;
+        height: auto;
+        padding: 5px;
+        margin-top: 40px;
+        padding-right: 5px;
+        text-align: justify;
+    }
+    
+    .boite2{
+        width:40%;
+        height: auto;
+        margin-top: 100px;
+        padding-left: 10px;
+        margin-left: 12px;
+        text-align: justify;
+    }
+    
+    .boite3 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+    .boite4{
+        width:45%;
+        height: auto;
+        text-align: justify;
+    }  
 
 nav .element1{
     display: flex;
@@ -219,61 +215,30 @@ nav .element4:hover{
 
 #conteneur h1{
     color:rgb(10, 10, 71);
-    padding: 20px;
+    padding: 15px;
     justify-content: center;
-    margin-top: 20px;
-    margin-left: 20px;
 
     
 }
-section .boite1 h4{
-    margin: 20px;
-}
 
-h1{
-    margin: 20px;
-}
 h2{
-    
-    color:rgba(217, 84, 32, 0.804);
+    margin-bottom: 25px;
+    color:rgb(10, 10, 71);
     margin-bottom: 10px;
-    margin-left: 20px;
-    margin-top: 20px;
+    font-weight: revert;
    
 }
 
 h3{
     
     color:rgba(124, 108, 65, 0.575);
-    margin-bottom: 10px;
-    margin-left: 20px;
-   
+    margin-bottom: 25px;
 }
 
 p{
     line-height: 1.3;
-    margin-bottom: 10px;
-    margin-left: 20px;
+    margin-bottom: 25px;
  }
-
- .boite2{
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
- }
-
- #btt {
-    opacity: 0;
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    top: 30px;
-    margin: 5px;
-    right: 20px;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  }
 
 nav ul{
     
@@ -509,6 +474,19 @@ form .action input[type="submit"]{
 
 }
 
+form .loi-bruxelles p{
+    font-size: 10px;
+    font-weight: 100;
+    color: #777;
+}
+
+form .loi-bruxelles a{
+    color: rgb(8, 175, 80);
+    font-size: 10px;
+    font-weight: 100;
+    text-decoration: underline;
+    
+}
 
 form .icons a{
 
@@ -555,7 +533,7 @@ footer {
    .map-responsive iframe {
     left:0;
     top:0;
-    height:70%;
+    height:100%;
     width:100%;
     position:absolute;
    }
@@ -684,21 +662,19 @@ header{
 }
 
 
-
 } 
 
 @media screen and (max-width: 850px) {
     
     .conteneur{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     #conteneur h1{
         color:rgb(10, 10, 71);
         padding: 30px;
         justify-content: center;
-    
         
     }
     .boite1{
@@ -711,7 +687,7 @@ header{
 
     .boite2{
         width: 400px;
-        margin-top: 10px;
+        margin-top: 6%;
         padding-left: 0;
         margin-left: 0;
     }
@@ -757,7 +733,7 @@ header{
         .nav-links{
             top: 0;
             left: 0;
-            position: fixed;
+            position: absolute;
             background-color: rgb(185, 185, 185);
             
             width: 100%;
