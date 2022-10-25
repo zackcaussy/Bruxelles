@@ -431,6 +431,10 @@ form .title h2 {
 
 }
 
+.bloctitre h4{
+    margin-left: 2àpx;
+}
+
 form .half {
 
     display: flex;
