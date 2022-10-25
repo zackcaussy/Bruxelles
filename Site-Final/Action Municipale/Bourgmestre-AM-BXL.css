@@ -427,12 +427,11 @@ form .title h2 {
     font-size: 2em;
     font-weight: bold;
     color: yellow;
-
-
 }
 
-.bloctitre h4{
-    margin-left: 2àpx;
+h4{
+    margin-left: 20px;
+    color:rgba(124, 108, 65, 0.575);
 }
 
 form .half {
