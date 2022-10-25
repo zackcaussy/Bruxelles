@@ -227,9 +227,12 @@ nav .element4:hover{
     
 }
 section .boite1 h4{
-    margin left: 20px;
+    margin: 20px;
 }
 
+h1{
+    margin: 20px;
+}
 h2{
     
     color:rgba(217, 84, 32, 0.804);
