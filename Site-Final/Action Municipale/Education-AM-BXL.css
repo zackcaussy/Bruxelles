@@ -98,10 +98,8 @@ th{
    margin-left: 20px;
  }
 
-
-
- 
- .boite1 section a{
+li a{
+   
     margin-left: 20px;
     text-decoration: underline;
     color: green;
@@ -228,7 +226,13 @@ nav .element4:hover{
 
     
 }
+section .boite1 h4{
+    margin: 20px;
+}
 
+h1{
+    margin: 20px;
+}
 h2{
     
     color:rgba(217, 84, 32, 0.804);
@@ -277,8 +281,10 @@ nav ul{
 }
 
 ul{
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
+
+
 
 .box{
 
@@ -427,6 +433,11 @@ form .title h2 {
 
 }
 
+section .boite1 {
+margin-left: 20px;
+
+}
+
 form .half {
 
     display: flex;
@@ -525,7 +536,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 
 
 footer {
-    position: relative;
+    position: absolute;
     left: 0;
     bottom: 0;
 
