@@ -137,18 +137,26 @@ article p a:hover {
 }
 
 .visuel {
-    margin:  0 auto;
+    margin:  auto;
     margin-top: 10px;
     margin-bottom: 10px;
     display: block;
+}
+aside h1 {
+    margin-left: 34%;
+    text-decoration: underline;
+}
+.goodmove {
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    height: 260px;
+    width: 180px;
 }
 
 .middle{
 
     width: 60%;
-    
-    
-    
 }
 
 .right {
