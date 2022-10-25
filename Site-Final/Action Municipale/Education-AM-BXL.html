@@ -17,7 +17,8 @@
         rel="stylesheet">
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="Relations-Internationales-BXL.css">
+    <link rel="stylesheet" href="Education-AM-BXL.css">
+
     <title>Education</title>
 </head>
 
@@ -44,51 +45,56 @@
 
         <section class="boite1">
             <h1>Enseignement</h1>
-
-            <p>Le réseau d'enseignement communal francophone comprend des écoles maternelles, primaires (y compris un
-                enseignement spécialisé), secondaires ainsi qu'une Haute Ecole, un enseignement de promotion sociale.
-            </p>
-            <ul>
-                <li>
-                    <a href="https://instructionpublique.bruxelles.be/fr/ecoles/maternel" target="_blank">Enseignement
-                        maternel</a>
-                </li>
-                <li>
-                    <a href="https://instructionpublique.bruxelles.be/fr/ecoles/primaire" target="_blank">Enseignement
-                        primaire</a>
-                </li>
-                <li>
-                    <a href="https://instructionpublique.bruxelles.be/fr/ecoles/specialise" target="_blank">Enseignement
-                        spécialisé maternel et primaire</a>
-                </li>
-                <li>
-                    <a href="https://instructionpublique.bruxelles.be/fr/ecoles/secondaire" target="_blank">Enseignement
-                        secondaire</a>
-                </li>
-                <li>
-                    <a href="https://instructionpublique.bruxelles.be/fr/ecoles/superieur" target="_blank">Enseignement
-                        supérieur</a>
-                </li>
-                <li>
-                    <a href="https://instructionpublique.bruxelles.be/fr/ecoles/promotion-sociale"
-                        target="_blank">Enseignement de promotion sociale</a>
-                </li>
-                <li>
-                    <a href="https://instructionpublique.bruxelles.be/fr/ecoles/artistique" target="_blank">Enseignement
-                        artistique à horaire réduit</a>
-                </li>
-                <li>
-                    <a href="https://instructionpublique.bruxelles.be/fr/ecoles/cta" target="_blank">Centres de
-                        Technologies Avancées (CTA)</a>
-                </li>
-            </ul>
-
+            <p>Le réseau d'enseignement communal francophone comprend des écoles maternelles, primaires (y compris un enseignement spécialisé), secondaires ainsi qu'une Haute Ecole, un enseignement de promotion sociale.</p>
+                    <div class="bullet">
+                        <ul>
+                            <li>
+                                <a href="https://instructionpublique.bruxelles.be/fr/ecoles/maternel"
+                                    target="_blank">Enseignement maternel</a>
+                            </li>
+                            <li>
+                                <a href="https://instructionpublique.bruxelles.be/fr/ecoles/primaire"
+                                    target="_blank">Enseignement primaire</a>
+                            </li>
+                            <li>
+                                <a href="https://instructionpublique.bruxelles.be/fr/ecoles/specialise"
+                                    target="_blank">Enseignement spécialisé maternel et primaire</a>
+                            </li>
+                            <li>
+                                <a href="https://instructionpublique.bruxelles.be/fr/ecoles/secondaire"
+                                    target="_blank">Enseignement secondaire</a>
+                            </li>
+                            <li>
+                                <a href="https://instructionpublique.bruxelles.be/fr/ecoles/superieur"
+                                    target="_blank">Enseignement supérieur</a>
+                            </li>
+                            <li>
+                                <a href="https://instructionpublique.bruxelles.be/fr/ecoles/promotion-sociale"
+                                    target="_blank">Enseignement de promotion sociale</a>
+                            </li>
+                            <li>
+                                <a href="https://instructionpublique.bruxelles.be/fr/ecoles/artistique"
+                                    target="_blank">Enseignement artistique à horaire réduit</a>
+                            </li>
+                            <li>
+                                <a href="https://instructionpublique.bruxelles.be/fr/ecoles/cta" target="_blank">Centres de Technologies Avancées (CTA)</a>
+                            </li>
+                        </ul>
+                    </div>
+            
+            
         </section>
 
         <section class="boite2">
 
+
         </section>
 
+
+        <section>
+
+
+        </section>
 
     </div>
 
@@ -134,6 +140,62 @@
             </div>
         </div>
     </footer>
+
+
+
+
 </body>
 
+<script>
+    const menuHamburger = document.querySelector(".menu-burger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
 </html>
+
+<!--
+    (rajout d'une lingne)
+    <div class="line"></div 
+
+    (contenu)
+
+    .content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+    }
+
+    (collaspe)
+
+  .collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  
+}
+ (script) 
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+-->
