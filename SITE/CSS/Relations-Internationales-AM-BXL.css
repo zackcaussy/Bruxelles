@@ -529,7 +529,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 
 
 footer {
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
 
