@@ -14,7 +14,7 @@
     <link rel="styleesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="Bourgmestre-AM-BXL.css">
-    <title>Ville de Bruxelles - Philippe Close</title>
+    <title>Philippe Close</title>
 
 </head>
 <body>
@@ -22,18 +22,21 @@
         <nav class="navbar">
             <a href="#" class="logo">Bru<span class=voyelles>x</span><span class=consonnes>elles</span></a>
             <div class="nav-links">
+
                 <ul>
-            <li><a href="Recherche-AM-BXL.html">Action Municipale</a></li>
-            <li><a href="AS1.html">Actualités & Sorties</a></li>
-            <li><a href="servicesetdemarches.html">Services & Démarches</a></li> 
-            <li><a href="Page Marches.html">Vivre à bruxelles</a></li>
-            <li><a href="">Infos et Contacts</a></li>
-        </ul>
-    </div>
-    <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Logo/menu-burger-full-white.png"
-    alt="menu-burger" class="menu-burger">
-    
-</nav>
+                    <li><a href="Recherche-AM-BXL.html">Action Municipale</a></li>
+                    <li><a href="#">Actualités & Sorties</a></li>
+                    <li><a href="#">Services & Démarches</a></li> 
+                    <li><a href="#">Vivre à bruxelles</a></li>
+                    <li><a href="#">Infos et Contacts</a></li>
+                </ul>
+
+                    
+            </div>
+            <img src="https://raw.githubusercontent.com/zackcaussy/Bruxelles/main/Logo/menu-burger-full-white.png"
+            alt="menu-burger" class="menu-burger">
+        </nav>
+
     </header>
 
     
@@ -115,16 +118,8 @@
             </div>
         </div>
     </footer>
-    <script>
-        const menuHamburger = document.querySelector(".menu-burger")
-        const navLinks = document.querySelector(".nav-links")
     
-        menuHamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('mobile-menu')
-        })
-    
-        
-    </script>
+<script src="burger.js"></script>
     
 </body>
 
