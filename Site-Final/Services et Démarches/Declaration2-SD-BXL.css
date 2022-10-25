@@ -99,8 +99,10 @@ th{
  }
 
 
-section a{
-    
+
+ 
+ .boite1 section a{
+    margin-left: 20px;
     text-decoration: underline;
     color: green;
  }
@@ -225,9 +227,6 @@ nav .element4:hover{
     margin-left: 20px;
 
     
-}
-section .boite1 h4{
-    margin left: 20px;
 }
 
 h2{
