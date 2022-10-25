@@ -6,7 +6,7 @@
     list-style: none;
     font-family: 'Ubuntu', 'Montserra', 'Roboto', sans-serif;
     color: rgb(10, 10, 71);
-   
+
 }
 
 body{
@@ -69,12 +69,14 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 100px;
+    margin-left: 20px;
     
 }
 
 #conteneur nav{
     margin-top: auto;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -83,6 +85,83 @@ header{
     margin-bottom: 50px;
     color: white;
     
+}
+
+th{
+   border: 1px solid black;
+   background-color: rgb(255, 255, 255);
+   margin-left: 20px;
+ }
+
+ td{
+    border: 1px solid black;
+   background-color: rgb(255, 255, 255);
+   margin-left: 20px;
+ }
+
+
+.boite2 li{
+    margin-left: 20px;
+}
+
+.boite3 li{
+    margin-left: 20px;
+}
+ .boite1 section a{
+    margin-left: 20px;
+    text-decoration: underline;
+    color: green;
+ }
+
+ .boite1 section ul{
+
+    display: block;
+    width: 100%;
+    float:left;
+ }
+
+ .boite2 section a{
+    margin-left: 20px;
+    text-decoration: underline;
+    color: green;
+ }
+
+ .boite2 section ul{
+
+    display: block;
+    width: 100%;
+    float:left;
+ }
+
+ .boite3 section a{
+    margin-left: 20px;
+    text-decoration: underline;
+    color: green;
+ }
+
+ .boite3 section ul{
+
+    display: block;
+    width: 100%;
+    float:left;
+ }
+
+table{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ .map-responsive{
+    margin-left: 20px;
+    width: 640px;
+    height: auto;
+}
+
+iframe{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 50%;
 }
 
 nav .element1{
@@ -191,11 +270,11 @@ nav .element4:hover{
     color: white;
 }
 
-#conteneur h1{
+.conteneur h1{
     color:rgb(10, 10, 71);
-    padding: 20px;
     justify-content: center;
-
+    margin-top: 20px;
+    margin-left: 20px;
     
 }
 
@@ -203,6 +282,8 @@ h2{
     
     color:rgba(217, 84, 32, 0.804);
     margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
    
 }
 
@@ -210,20 +291,58 @@ h3{
     
     color:rgba(124, 108, 65, 0.575);
     margin-bottom: 10px;
+    margin-left: 20px;
    
 }
 
-h4, h5{
-    color:rgb(10, 10, 71);
-    padding: 20px;
-    
- 
+h4{
+    color: blue;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+h5{
+    margin-bottom: 10px;
+    margin-left: 20px;
 }
 
 p{
     line-height: 1.3;
     margin-bottom: 10px;
+    margin-left: 20px;
  }
+
+ .boite1 a{
+    padding-left: 20px;
+    color: green;
+    text-decoration: underline;
+ }
+
+ .boite2 a{
+    
+  
+    color: green;
+    text-decoration: underline;
+ }
+
+ .boite3 a{
+    
+    color: green;
+    text-decoration: underline;
+ }
+
+ #btt {
+    opacity: 0;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 30px;
+    margin: 5px;
+    right: 20px;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
 
 nav ul{
     
@@ -479,7 +598,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 
 
 footer {
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
 
@@ -505,7 +624,7 @@ footer {
    .map-responsive iframe {
     left:0;
     top:0;
-    height:100%;
+    height:70%;
     width:100%;
     position:absolute;
    }
@@ -661,7 +780,7 @@ header{
 
     .boite2{
         width: 400px;
-        margin-top: 6%;
+        margin-top: 10px;
         padding-left: 0;
         margin-left: 0;
     }
@@ -855,11 +974,6 @@ ul{
     
     background-color: rgba(134, 134, 134, 0.412);
     padding: 10px 0;
-<<<<<<< HEAD
-    position: relative;
-=======
-    position: fixed;
->>>>>>> afaa1952120307f3d79e38bc05b2a68c5acadbe5
     
 }
 .footer-col{

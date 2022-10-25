@@ -69,7 +69,6 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 100px;
     
 }
 
@@ -191,6 +190,33 @@ nav .element4:hover{
     color: white;
 }
 
+
+nav .element5{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 180px;
+    border: 0.5px solid white;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(46, 102, 191);
+    font-size: 30px;
+    color: white;
+}
+
+nav .element5:hover{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 180px;
+    border: 0.5px solid white;
+    justify-content: center;
+    text-align: center;
+    background-color: #10ae37a2;
+    font-size: 30px;
+    color: white;
+}
+
 #conteneur h1{
     color:rgb(10, 10, 71);
     padding: 20px;
@@ -211,13 +237,6 @@ h3{
     color:rgba(124, 108, 65, 0.575);
     margin-bottom: 10px;
    
-}
-
-h4, h5{
-    color:rgb(10, 10, 71);
-    padding: 20px;
-    
- 
 }
 
 p{
@@ -855,11 +874,6 @@ ul{
     
     background-color: rgba(134, 134, 134, 0.412);
     padding: 10px 0;
-<<<<<<< HEAD
-    position: relative;
-=======
-    position: fixed;
->>>>>>> afaa1952120307f3d79e38bc05b2a68c5acadbe5
     
 }
 .footer-col{
