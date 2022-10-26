@@ -93,7 +93,7 @@ header{
 
 
     display: flex;
-   margin-left: 10px;
+    margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -125,9 +125,10 @@ p{
  }
 
 .left{
-    
+    margin-top: 75px;
     width: 20%;
-    background-color: #b32121;
+    background-color: none;
+    
     
     
 }
@@ -158,19 +159,19 @@ article p a:hover {
     display: block;
 }
 aside h1 {
-    margin-left: 34%;
-    text-decoration: underline;
+    margin-left: 26%;
+    
 }
 .goodmove {
     margin: auto;
     display: block;
     margin-top: 30px;
+    margin-bottom: 50px;
     height: 260px;
     width: 180px;
 }
 
 .middle{
-
     width: 60%;
 }
 
@@ -179,12 +180,26 @@ aside h1 {
 
 }
 
+.mag-bru {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-around;
+}
 
-
+.mag-bru img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+    width: 100px;
+}
 
 .right {
-   width: 20%;
-    background-color: rgb(0, 255, 136);
+    width: 20%;
+    background-color: none;
     
     }
 
