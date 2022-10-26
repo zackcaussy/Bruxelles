@@ -138,8 +138,8 @@ article img {
     border-width: 1px;
 }
 article {
-    border: black;
-    border-style: solid;
+    font-size: smaller;
+    background-color: rgba(219, 205, 205, 0.412);
     border-width: 2px;
     padding: 5px;
 }
