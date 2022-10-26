@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 .carousel {
-  position: relative;
+  position: absolute;
   padding: auto;
   margin: auto; 
-  width: 3350px;
-  height: 180px;
+  width: 350px;
+  height: 80px;
   overflow: hidden;
   background-color: #ffffff;
   left: 12%;

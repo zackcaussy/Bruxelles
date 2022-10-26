@@ -125,9 +125,9 @@ p{
  }
 
 .left{
-    margin-top: 75px;
+    
     width: 20%;
-    background-color: none;
+    background-color: rgba(219, 205, 205, 0.412);
     
     
     
@@ -160,6 +160,7 @@ article p a:hover {
 }
 aside h1 {
     margin-left: 26%;
+    margin-top: 75px;
     
 }
 .goodmove {
@@ -199,7 +200,7 @@ aside h1 {
 
 .right {
     width: 20%;
-    background-color: none;
+    background-color: rgba(219, 205, 205, 0.412);
     
     }
 
