@@ -101,6 +101,21 @@ header{
     
 }
 
+
+.weatherwidget-io{
+
+    margin-top: 75px;
+   
+
+}
+
+.vimeo{
+    margin-top: 75px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
 img{
     width: 50%;
 }
@@ -112,7 +127,7 @@ p{
 .left{
     
     width: 20%;
-    background-color: #1900ff;
+    background-color: #b32121;
     
     
 }
@@ -161,7 +176,7 @@ aside h1 {
 
 .right {
    width: 20%;
-    background-color: chartreuse;
+    background-color: rgb(0, 255, 136);
     
     }
 
