@@ -10,12 +10,13 @@ Bruxelles (Page d'Accueil) - Action Municipale - Vivre à Bruxelles - Services e
 Nos dossiers sont constitués de:
 
     CSS
-    Icon
-    Images
+    HTML
+    JS
     Wireframe
-    La liste de HTML
+    Ajout Boilerplate - Page 404
 
 Pas d'erreur au validateur W3C:
 
     HTML tous OK
     CSS tous OK
+    

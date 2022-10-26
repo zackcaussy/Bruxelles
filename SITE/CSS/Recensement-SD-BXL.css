@@ -905,6 +905,7 @@ ul{
     
     background-color: rgba(134, 134, 134, 0.412);
     padding: 10px 0;
+    position: absolute;
     
 }
 .footer-col{

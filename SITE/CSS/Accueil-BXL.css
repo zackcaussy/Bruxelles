@@ -63,49 +63,154 @@ header{
 .consonnes{
     color:red;
 }
-
-.conteneur{
-    display: flex;
-    width: 100vw;
-    height: auto;
+.line {
+    border-radius: 1px ;
+    height: 2px;
+    
     margin-top: 10px;
-    margin-bottom: 95px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.line2 {
+    border-radius: 1px ;
+    height: 2px;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.conteneurbar{
+    display: flex;
+    margin-right: 10px;
+    margin-top: 10px;
+    flex-direction: row-reverse;
+
+
+    }
+.conteneur1 {
+
+
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 50px;
+    
+}
+
+
+.weatherwidget-io{
+
+    margin-top: 75px;
+   
+
+}
+
+.vimeo{
+    margin-top: 75px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+img{
+    width: 50%;
+}
+p{
+    line-height: 1.3;
+    margin-bottom: 9px;
+ }
+
+.left{
+    
+    width: 20%;
+    background-color: rgba(219, 205, 205, 0.412);
+    
+    
+    
+}
+article img {
+    border: rgb(83, 83, 83);
+    border-style: solid;
+    border-width: 1px;
+}
+article {
+    font-size: smaller;
+    background-color: rgba(219, 205, 205, 0.412);
+    border-width: 2px;
+    padding: 5px;
+}
+
+article p a {
+    text-decoration: underline;
+}
+
+article p a:hover {
+    color: rgb(44, 100, 255);
+}
+
+.visuel {
+    margin:  auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+aside h1 {
+    margin-left: 26%;
+    margin-top: 75px;
+    
+}
+.goodmove {
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 260px;
+    width: 180px;
+}
+
+.middle{
+    width: 60%;
+}
+
+.goodmove{
+    width: 200px;
+
+}
+
+.mag-bru {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.mag-bru img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+    width: 100px;
+}
+
+.right {
+    width: 20%;
+    background-color: rgba(219, 205, 205, 0.412);
     
     }
 
-
-    .boite1{
-        width:37%;
-        height: auto;
-        padding: 5px;
-        margin-top: 40px;
-        padding-right: 5px;
-        text-align: justify;
-    }
-    
-    .boite2{
-        width:40%;
-        height: auto;
-        margin-top: 100px;
-        padding-left: 10px;
-        margin-left: 12px;
-        text-align: justify;
-    }
-    
-    .boite3 {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    
-    .boite4{
-        width:45%;
-        height: auto;
-        text-align: justify;
-    }  
+.boite4{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    height: auto;
+    text-align: justify;
+}  
 
 nav .element1{
     display: flex;
@@ -235,10 +340,7 @@ h3{
     margin-bottom: 25px;
 }
 
-p{
-    line-height: 1.3;
-    margin-bottom: 25px;
- }
+
 
 nav ul{
     
@@ -256,7 +358,7 @@ ul{
 	background-color: white;
 	border-radius: 5px;
 	display: flex;
-
+    flex: inline-block;
 	align-items: center;
 	padding: 5px;
 
@@ -350,16 +452,7 @@ position: absolute;
     
 }
 
-form {
-    background: rgba(27, 31, 34, 0.80);
-    width: 640px;
-    margin: 50px auto;
-    max-width: 97%;
-    border-radius: 10px;
-    padding: 55px 30px;
-    box-sizing: border-box;
-   
-}
+
 
 
 
@@ -510,7 +603,7 @@ footer {
     position: relative;
     left: 0;
     bottom: 0;
-
+    margin-top: 20px;
     width: 100%;
     background-color: rgba(134, 134, 134, 0.412);
     color: rgb(10, 10, 71);
@@ -677,25 +770,21 @@ header{
         justify-content: center;
         
     }
-    .boite1{
+    .left {
         width: 100%;
+        order: 2;
     }
-
-    .boite2 img{
+    .middle {
         width: 100%;
+        order: 1;
     }
-
-    .boite2{
-        width: 400px;
-        margin-top: 6%;
-        padding-left: 0;
-        margin-left: 0;
-    }
-
-    .boite3 {
+    .right {
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        order: 3;
+    }
+    .conteneur1 {
+        flex-wrap: wrap;
+        gap: 20px;
     }
 
     .title .logo{
